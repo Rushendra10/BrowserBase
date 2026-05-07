@@ -53,7 +53,7 @@
 - Call LLM: "What selector is the Submit button?"
 - LLM points to the selector
 - Execute: Click on that button
-- STORE in cache: {"selector": <id>, "method": "click"}
+- STORE in cache: {"selector": < id >, "method": "click"}
 
 ## Cache Hit (Same Instruction, Same URL)
 

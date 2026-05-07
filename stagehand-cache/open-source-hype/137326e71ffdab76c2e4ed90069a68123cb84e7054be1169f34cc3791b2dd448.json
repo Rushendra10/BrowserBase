@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "instruction": "scroll down",
+  "url": "https://news.ycombinator.com/",
+  "variableKeys": [],
+  "actions": [
+    {
+      "selector": "xpath=/html[1]",
+      "description": "the main scrollable area of the Hacker News page",
+      "method": "nextChunk",
+      "arguments": []
+    }
+  ],
+  "actionDescription": "the main scrollable area of the Hacker News page",
+  "message": "Action [nextChunk] performed successfully on selector: xpath=/html[1]"
+}

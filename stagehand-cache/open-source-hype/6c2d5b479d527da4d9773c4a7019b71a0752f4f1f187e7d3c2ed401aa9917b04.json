@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "instruction": "scroll down",
+  "url": "https://github.com/trending?since=weekly",
+  "variableKeys": [],
+  "actions": [
+    {
+      "selector": "xpath=/html[1]",
+      "description": "the main scrollable area of the page",
+      "method": "nextChunk",
+      "arguments": []
+    }
+  ],
+  "actionDescription": "the main scrollable area of the page",
+  "message": "Action [nextChunk] performed successfully on selector: xpath=/html[1]"
+}
